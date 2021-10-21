@@ -5,7 +5,7 @@
 Download The Android Apk By Clicking [Here](https://drive.google.com/file/d/1OYia-6pMIxtyf9wdyKSs2wjRrPLcMuUM/view?usp=sharing)<br>
 How To SetUp This Project
 ```bash
-1. git clone https://github.com/PhantomKnight287/ReactNative
+1. git clone https://github.com/PhantomKnight287/ReactNative.git
 2. cd ReactNative
 3. Rename .env.example to .env and fill appropriate details
 4. npm install

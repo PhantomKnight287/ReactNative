@@ -1,15 +1,24 @@
 {
   "expo": {
-    "name": "anotherApp",
-    "slug": "anotherApp",
+    "name": "Firebase-Chat-App",
+    "slug": "Firebase-Chat-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://cdn.dribbble.com/users/528264/screenshots/3140440/media/5f34fd1aa2ebfaf2cd548bafeb021c8f.png?compress=1&resize=400x400",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Splash_adobespark.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -23,7 +32,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.phantomknight.FirebaseChatApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
